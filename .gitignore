@@ -1,5 +1,4 @@
 __pycache__/
 artifacts/
-chart/
 *.pkl
 .DS_Store
