@@ -34,9 +34,6 @@ project_root/
 
 ## 📈 Key Visualizations
 - 📊 Loan Amount Distribution vs Monthly Income  
-
-![](https://github.com/SelinaYenLinh/Smart-Loan-Recovery-System-With-Machine-Learning/blob/main/chart/Loan%20Amount%20Distribution%20%26%20Relationship%20with%20Month%20Income.png)
-
 - 📦 Boxplot: Missed Payments vs Recovery Status
 - 🧩 Segments of Borrowers by Loan & Income
 - 📌 Recovery Status by Payment History
