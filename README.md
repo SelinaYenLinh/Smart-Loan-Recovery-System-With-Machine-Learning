@@ -16,38 +16,54 @@ This project uses machine learning to segment borrowers and classify their risk 
 Smart-Loan-Recovery-System-With-Machine-Learning/
 project_root/  
 │  
-├── data/ # Raw or processed input data  
+├── data/  
 │  
-├── src/ # Source code modules  
-│ ├── main.py # Main pipeline script  
-│ ├── preprocessing.py # Data cleaning & feature engineering  
-│ ├── model_training.py # Model training and evaluation  
-│ ├── segmentation.py # KMeans clustering logic  
-│ └── visualization.py # Plotly chart generation  
+├── src/  
+│ ├── main.py   
+│ ├── preprocessing.py   
+│ ├── model_training.py 
+│ ├── segmentation.py   
+│ └── visualization.py 
 │  
-├── charts/ # Exported visualizations (PNG, HTML, etc.)  
-├── artifacts/ # Saved models, metadata, and encoders  
-├── config.yaml # Config file for model settings and parameters  
-├── requirements.txt # Python dependencies  
-├── README.md # Project documentation  
-└── .gitignore # Files/folders to exclude from Git  
+├── charts/ 
+├── artifacts/   
+├── config.yaml 
+├── requirements.txt 
+├── README.md 
+└── .gitignore 
 
 ## 📈 Key Visualizations
-- 📊 Loan Amount Distribution vs Monthly Income  
+- 📊 Loan Amount Distribution vs Monthly Income 
+
+![](chart/Loan_Amount_Distribution_&_Relationship_with_Month_Income.png) 
+
 - 📦 Boxplot: Missed Payments vs Recovery Status
+
+![](chart/How_Missed_Payments_Affect_Loan_Recovery_Status.png)
+
+
+- 📌 How Monthly Income and Loan Amount Affect Loan Recovery.
+
+![](chart/How_Monthly_Income_and_Loan_Amount_Affect_Loan_Recovery.png)
+
+- How Payment History Affects Loan Recovery Status
+
+![](chart/How_Payment_History_Affects_Loan_Recovery_Status.png)
+
 - 🧩 Segments of Borrowers by Loan & Income
-- 📌 Recovery Status by Payment History
+
+![](chart/Borrower_Segments_Based_on_Monthly_Income_and_Loan_Amount.png)
 
 ## 🧪 Model Training & Evaluation
 - 🧬 Clustering: KMeans (4 clusters)
-    - Segment borrowers into risk profiles (e.g., high loan burden, low default risk).
+    - Segment borrowers into risk profiles (from 0 to 4).
 - 🧠 Classification: Random Forest
     - Label segments as recoverable or not.
     - Metrics:
-        - ✅ Accuracy: XX%
-        - 📍 Precision: XX%
-        - 📈 Recall: XX%
-        - 🏆 F1 Score: XX%
+        - ✅ Accuracy: 96%
+        - 📍 Precision: 91%
+        - 📈 Recall: 97%
+        - 🏆 F1 Score: 94%
 ## 🧾 Dependencies
 - Key libraries:
     - pandas, scikit-learn

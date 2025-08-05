@@ -74,7 +74,7 @@ fig.write_image(os.path.join(save_chart_path, name))
 model = riskclassifier()
 model.train(x_train_process, y_train)
 
-# print(model.evaluation(x_test_process, y_test))
+print(model.evaluation(x_test_process, y_test))
 
 save_folder_path = os.path.join(folder_path, 'artifacts')
 os.makedirs(save_folder_path, exist_ok= True)
