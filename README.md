@@ -68,5 +68,5 @@ project_root/
 - Key libraries:
     - pandas, scikit-learn
     - plotly, matplotlib, seaborn
-    - yaml (if using config.yaml)
+    - yaml
     - Full list in requirements.txt.
