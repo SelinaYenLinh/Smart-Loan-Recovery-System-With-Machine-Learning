@@ -18,19 +18,19 @@ project_root/
 │  
 ├── data/  
 │  
-├── src/  
+├── src/   
 │ ├── main.py   
 │ ├── preprocessing.py   
-│ ├── model_training.py 
+│ ├── model_training.py  
 │ ├── segmentation.py   
-│ └── visualization.py 
+│ └── visualization.py  
 │  
-├── charts/ 
-├── artifacts/   
-├── config.yaml 
-├── requirements.txt 
-├── README.md 
-└── .gitignore 
+├── charts/  
+├── artifacts/    
+├── config.yaml  
+├── requirements.txt  
+├── README.md  
+└── .gitignore  
 
 ## 📈 Key Visualizations
 - 📊 Loan Amount Distribution vs Monthly Income 
